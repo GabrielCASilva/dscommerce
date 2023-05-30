@@ -83,6 +83,10 @@ public class Product {
 		this.imgUrl = imgUrl;
 	}
 
+	public Set<Category> getCategories() {
+		return categories;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
